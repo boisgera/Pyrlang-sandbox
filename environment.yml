@@ -1,0 +1,9 @@
+name: pyrlang
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip:
+      - pyrlang-term
+      - -r Pyrlang/requirements.txt
+      - Pyrlang/.

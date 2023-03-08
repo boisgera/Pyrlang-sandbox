@@ -1,0 +1,23 @@
+# Sandbox
+
+## Section
+
+```elixir
+Node.list()
+```
+
+```elixir
+Node.self()
+```
+
+```elixir
+Node.ping(:"oddball@192.168.1.85")
+```
+
+```elixir
+Node.list()
+```
+
+```elixir
+send({:target, :"oddball@192.168.1.85"}, {self(), "hey!"})
+```

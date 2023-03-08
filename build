@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+cd Term
+pip install -r requirements.txt
+pip install .
+cd ..
+
+cd Pyrlang
+pip install -r requirements.txt
+pip install .
+cd ..
